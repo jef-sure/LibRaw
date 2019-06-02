@@ -5233,6 +5233,8 @@ int LibRaw::dcraw_process(void)
         dht_interpolate();
       else if (quality == 12)
         aahd_interpolate();
+      else if (quality == 13)
+        dht_nn_interpolate();
       // fallback to AHD
       else
       {

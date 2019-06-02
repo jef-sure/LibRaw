@@ -27,6 +27,7 @@ it under the terms of the one of two licenses as you choose:
 
 /* DHT and AAHD are LGPL licensed, so include them */
 #include "./dht_demosaic.cpp"
+#include "./dht_nn_demosaic.cpp"
 #include "./aahd_demosaic.cpp"
 #include "internal/var_defines.h"
 

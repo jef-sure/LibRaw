@@ -320,6 +320,7 @@ protected:
   void xtrans_interpolate(int);
   void ahd_interpolate();
   void dht_interpolate();
+  void dht_nn_interpolate();
   void aahd_interpolate();
 
   void dcb(int iterations, int dcb_enhance);
